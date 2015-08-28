@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "text": "Brian T. Quinn, PhD",
+    "file": "http://briantquinn.com/images/btq_logo_inkscape_187x54.svg",
+    "link": "briantquinn.com"
+  },
+  "text": {
+    "title": "New York City Socialite Graph",
+    "more": "By scraping and analyzing the captions of photos from newyorksocialdiary.com (NYSD), \nI created this visualization of the social network of NYCs socialite community.\nThe network was thresholded to only keep nodes with a degree of at least 50.\nThat means the people in this visualization were photographed with at least 50 other people, including repeats of the same person.\nThis data spans the party list on NYSD from February 21, 2007 to December 1, 2014.",
+    "intro": "A visualization of the most-connected NYC Socialites."
+  },
+  "legend": {
+    "edgeLabel": "In photo together",
+    "colorLabel": "Subnetwork",
+    "nodeLabel": "Socialite"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "Modularity Class",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "imageAttribute": false,
+    "groupByEdgeDirection": false
+  },
+  "sigma": {
+    "graphProperties": {
+      "minEdgeSize": 0.2,
+      "maxNodeSize": 7,
+      "maxEdgeSize": 0.5,
+      "minNodeSize": 1
+    },
+    "drawingProperties": {
+      "labelThreshold": 10,
+      "hoverFontStyle": "bold",
+      "defaultEdgeType": "curve",
+      "defaultLabelColor": "#000",
+      "defaultLabelHoverColor": "#fff",
+      "defaultLabelSize": 14,
+      "activeFontStyle": "bold",
+      "fontStyle": "bold",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd"
+    },
+    "mouseProperties": {
+      "minRatio": 0.75,
+      "maxRatio": 20
+    }
+  }
+}
